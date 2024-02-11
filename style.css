@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    width: 100%;
+}
+h1{
+    color: red;
+    text-align: center;
+    padding: 25px;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list{
+    list-style: none;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.item{
+    width: 32%;
+    padding: 20px;
+    border:2px solid red;
+    box-shadow: 10px 5px 5px gray ;
+    margin-bottom: 20px;
+    display: grid;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin-top: 20px;
+}
+.img{
+    border-radius: 50%;
+    align-items: center;
+    border: 5px solid red;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color:white;
+    margin-left: 10px;
+    width: 100px;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .wrapper{
+    width: 1400px;
+    height: 900px;
+    background-image: url("./img/stadium.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.ball{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:red;
+    background-image: url("./img/ball.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
